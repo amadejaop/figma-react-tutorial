@@ -162,3 +162,51 @@
     position: absolute;
     border-radius: 5px;
 }
+
+.saveMoneyDiv {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #edf0f6;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.boxes {
+    position: absolute;
+    top: -15px;
+    left: 29px;
+}
+
+.plant {
+    position: absolute;
+    top: -31px;
+    left: 187px;
+}
+
+.saveMoneyTitle {
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.saveMoneyInfo {
+    opacity: 0.7;
+    margin-top: 0.5rem;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+}
+
+.button {
+    background-color: #101010;
+    border-radius: 8px;
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 19px;
+    padding: 1rem 3rem;
+    margin-top: 1.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

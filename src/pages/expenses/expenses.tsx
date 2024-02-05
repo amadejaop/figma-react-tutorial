@@ -9,6 +9,8 @@ import optionIcon from "../../assets/png/menuIcon.png"
 import cartIcon from "../../assets/svg/cartIcon.svg";
 import transportIcon from "../../assets/svg/transportIcon.svg";
 import houseIcon from "../../assets/svg/houseIcon.svg";
+import boxes from "../../assets/png/boxes.png";
+import plant from "../../assets/png/plant.png";
 
 
 export default function Expenses() {
@@ -312,6 +314,14 @@ export default function Expenses() {
             </li>
             ))}
           </ul>
+
+          <div className={styles.saveMoneyDiv}>
+            <img src={boxes} className={styles.boxes} alt="boxes" />
+            <img src={plant} className={styles.plant} alt="plant" />
+            <p className={styles.saveMoneyTitle}>Save more money</p>
+            <p className={styles.saveMoneyInfo}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, corporis.</p>
+            <button className={styles.button} type="button">VIEW TIPS</button>
+          </div>
           </section>
         </div>
       </main>
