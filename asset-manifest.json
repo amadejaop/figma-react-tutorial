@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/figma-react-tutorial/static/css/main.834af304.css",
+    "main.js": "/figma-react-tutorial/static/js/main.a643f765.js",
+    "static/js/787.1cd31a9e.chunk.js": "/figma-react-tutorial/static/js/787.1cd31a9e.chunk.js",
+    "static/media/transportIcon.svg": "/figma-react-tutorial/static/media/transportIcon.654be71e906e9d7918a65f62380e2676.svg",
+    "index.html": "/figma-react-tutorial/index.html",
+    "static/media/cartIcon.svg": "/figma-react-tutorial/static/media/cartIcon.ad31a888590857c57aab3f8d2021e435.svg",
+    "static/media/houseIcon.svg": "/figma-react-tutorial/static/media/houseIcon.a0914e6ac4cf70465484ac3d1e6aea6a.svg",
+    "main.834af304.css.map": "/figma-react-tutorial/static/css/main.834af304.css.map",
+    "main.a643f765.js.map": "/figma-react-tutorial/static/js/main.a643f765.js.map",
+    "787.1cd31a9e.chunk.js.map": "/figma-react-tutorial/static/js/787.1cd31a9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.834af304.css",
+    "static/js/main.a643f765.js"
+  ]
+}
