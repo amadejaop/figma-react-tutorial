@@ -194,6 +194,34 @@ export default function Expenses() {
     },
   ];
 
+  const spendCategories = [
+    {
+      id: 1,
+      category: "Food and Drinks",
+      price: 872.4,
+    },
+    {
+      id: 2,
+      category: "Shopping",
+      price: 1378.2,
+    },
+    {
+      id: 3,
+      category: "Housing",
+      price: 928.5,
+    },
+    {
+      id: 4,
+      category: "Transportation",
+      price: 420.7,
+    },
+    {
+      id: 5,
+      category: "Vehicle",
+      price: 520,
+    },
+  ];
+
   const onMouseOver = (data: any, index: number) => setActiveIndex(index);
 
   return (
@@ -272,15 +300,17 @@ export default function Expenses() {
           <section className={styles.moneyOverview}>
             <p className={styles.moneyOverviewTitle}>Where did your money go?</p>
           <ul>
-            <li>
+            {spendCategories.map((category) => (
+            <li key={category.id}>
               <div className={styles.spendCategory}>
-                <p className={styles.spendCategoryName}>food and drinks</p>
-                <p className={styles.spendCategoryPrice}>872.40</p>
+                <p className={styles.spendCategoryName}>{category.category}</p>
+                <p className={styles.spendCategoryPrice}>{category.price.toFixed(2)}</p>
               </div>
               <div className={styles.spendCategoryBar}>
-                <div className={styles.spendCategoryColoredBar}></div>
+                <div className={styles.spendCategoryColoredBar} style={{width: `${(category.price / spendCategories.reduce((acc, current) => acc + current.price, 0)) * 100 }%`}}></div>
               </div>
             </li>
+            ))}
           </ul>
           </section>
         </div>
