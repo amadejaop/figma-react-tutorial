@@ -15,7 +15,7 @@
   width: 95%;
   height: 95%;
   border-radius: 30px;
-  //display: flex;
+  display: flex;
 }
 
 .expensesOverview {
@@ -101,4 +101,65 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.expenseItemDetails {
+    margin-left: 1rem;
+}
+
+.expenseItemTitle {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.expenseItemTime {
+    opacity: 0.5;    
+}
+
+.expenseItemPrice {
+    font-weight: 600;
+}
+
+.expenseOption {
+    cursor: pointer;
+}
+
+.moneyOverview {
+    width: 35%;
+    background-color: #f9fafc;
+    border-radius: 0 50px 50px 0;
+    padding: 5rem 2rem;
+}
+
+.moneyOverviewTitle {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.spendCategoryName {
+    font-weight: 500;
+}
+
+.spendCategory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spendCategoryBar {
+    height: 5px;
+    width: 100%;
+    background-color: #eceff5;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.spendCategoryColoredBar {
+    height: 5px;
+    width: 10%;
+    background-color: #31ba96;
+    position: absolute;
+    border-radius: 5px;
 }
