@@ -21,6 +21,7 @@
 .expensesOverview {
     width: 65%;
     padding: 5rem;
+    overflow-y: scroll;
 }
 
 .expensesHeader {
@@ -129,6 +130,7 @@
     background-color: #f9fafc;
     border-radius: 0 50px 50px 0;
     padding: 5rem 2rem;
+    overflow-y: scroll;
 }
 
 .moneyOverviewTitle {
